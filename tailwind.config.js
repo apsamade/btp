@@ -14,7 +14,7 @@ module.exports = {
 
       },
       backgroundImage: {
-  
+        'fond-header' : "url('/assets/backgrounds/fond-header.png')"
       }
     },
   },
