@@ -2,6 +2,7 @@
 
 import '@styles/global.css'
 import Nav from '@components/Nav'
+import Footer from '@components/Footer'
 
 
 const LayoutRoot = ({ children }) => {
@@ -25,6 +26,7 @@ const LayoutRoot = ({ children }) => {
             <body>
                 <Nav />
                 {children}
+                <Footer />
             </body>
 
         </html>
