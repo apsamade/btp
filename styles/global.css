@@ -27,7 +27,18 @@
     background: #1567ff;
     /* Couleur de la poignée de défilement au survol */
 }
-
+.move-elem-1{
+    animation: animate-background 6s infinite ease;
+}
+.move-elem-2{
+    animation: animate-background 8s infinite ease;
+}
+.move-elem-3{
+    animation: animate-background 10s infinite ease;
+}
+.move-elem-4{
+    animation: animate-background 12s infinite ease;
+}
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -37,5 +48,22 @@
     100% {
         opacity: 1;
         transform: none;
+    }
+}
+
+@keyframes animate-background{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%) translateX(-25%);
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+        transform: none
     }
 }
